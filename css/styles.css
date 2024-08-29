@@ -69,23 +69,7 @@ button {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
 }
-.nav-link.current {
-  position: relative;
-  color: #404bbf;
-}
-.nav-link.current::after {
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  content: '';
-  height: 4px;
-  width: 100%;
-  background-color: #404bbf;
-  border-radius: 2px;
-}
-.logo-part {
-  color: #2e2f42;
-}
+
 .header-logo {
   padding: 24px 0;
   margin-right: 76px;
@@ -121,6 +105,20 @@ button {
 
 .nav-link:focus {
   color: #404bbf;
+}
+.nav-link.current {
+  position: relative;
+  color: #404bbf;
+}
+.nav-link.current::after {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  content: '';
+  height: 4px;
+  width: 100%;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 .contacts {
   font-style: normal;
