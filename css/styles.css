@@ -290,6 +290,7 @@ button {
 .team-text {
   letter-spacing: 0.02em;
   text-align: center;
+  padding: 8px;
 }
 .social-list {
   display: flex;
