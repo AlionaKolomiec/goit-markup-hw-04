@@ -400,6 +400,7 @@ button {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+  margin-right: 120px;
 }
 .footer-logo .logo-part {
   color: #f4f4fd;
@@ -420,7 +421,6 @@ button {
   margin-right: auto;
   padding: 0 15px;
   align-items: baseline;
-  gap: 120px;
 }
 
 .footer-social-p {
@@ -433,11 +433,17 @@ button {
 }
 .footer-list {
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   gap: 16px;
 }
 .footer-item {
   width: 40px;
   height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-list-link:hover {
+  background-color: #31d0aa;
+}
+.social-list-link:focus {
+  background-color: #31d0aa;
 }
