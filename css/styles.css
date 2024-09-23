@@ -406,13 +406,13 @@ button {
 .portfolio-text:hover {
   transform: translateY(0%);
 }
-/*.footer-logo-container {
+.footer-logo-container {
   margin-right: 120px;
-}*/
+}
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
-  margin-right: 120px;
+  /*margin-right: 120px;*/
 }
 .footer-logo .logo-part {
   color: #f4f4fd;
