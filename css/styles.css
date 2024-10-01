@@ -421,13 +421,10 @@ button {
   align-items: baseline;
 }
 .div-footer-logo {
-  display: inline-block;
-  /*width: 1440px;*/
-
   margin-right: 120px;
 }
 .footer-logo {
-  /*display: inline;*/
+  display: inline-block;
   margin-bottom: 16px;
 }
 .footer-logo .logo-part {
